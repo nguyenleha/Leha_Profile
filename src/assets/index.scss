@@ -1,0 +1,58 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+
+    // custom
+    --transition: all 0.2s linear;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: capitalize;
+    line-height: 1.15;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 5rem 0;
+    scroll-margin-top: 5rem;
+}
+
+.section-center {
+    width: 95vw;
+    background-color: rgb(221, 0, 0);
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:900px) {
+    .section-center {
+        width: 90vw;
+    }
+}
