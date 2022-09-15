@@ -11,6 +11,7 @@
 
     // custom
     --transition: all 0.2s linear;
+    --radius: 1rem;
 }
 
 body {
@@ -56,6 +57,7 @@ section {
         width: 90vw;
     }
 }
-.home{
+
+.home {
     height: 2000px;
 }

@@ -4,9 +4,9 @@ import avatarCard from '../../../assets/avatar_card.jpg'
 
 const Banner = () => {
   return (
-    <section >
+    <section className='section-banner'>
       <div className='section-center banner-center'>
-        <article> I'm A Web Developer</article>
+        <article className='info_banner'> I'm A Web Developer</article>
         <article className='avatar_banner'> 
           <img src={avatarCard} className='avatar_card' alt='my selfie :)))'/>
         </article>
