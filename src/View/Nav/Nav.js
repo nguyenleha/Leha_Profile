@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Nav.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
+import logo from '../../assets/logo.png'
 
 const Nav = () => {
   const [fixedNavbar, setFixedNavbar] = useState(false);
@@ -19,7 +20,9 @@ const Nav = () => {
   return (
     <nav className={`navbar${fixedNavbar ? ' navbar-fixed' : ''}`} >
       <div className='section-center navbar-center'>
-        <div className='nav-header'>sds</div>
+        <div className='nav-header'>
+          <img src={logo} alt='My logo'/>
+        </div>
         <ul className={`${btnNavbar ? 'nav-menu' : 'nav-links'}`}>
           {
             btnNavbar &&

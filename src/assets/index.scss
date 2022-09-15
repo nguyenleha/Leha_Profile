@@ -46,7 +46,7 @@ section {
 
 .section-center {
     width: 95vw;
-    background-color: rgb(221, 0, 0);
+    // background-color: rgb(221, 0, 0);
     max-width: 1260px;
     margin: 0 auto;
 }
@@ -55,4 +55,7 @@ section {
     .section-center {
         width: 90vw;
     }
+}
+.home{
+    height: 2000px;
 }

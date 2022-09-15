@@ -1,14 +1,16 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import './banner.scss'
+import avatarCard from '../../../assets/avatar_card.jpg'
 
 const Banner = () => {
-  useEffect(() => {
-    // if (window.scrollY >=) {
-
-    // }
-  })
   return (
     <section >
-      <div >asdasdasdasd</div>
+      <div className='section-center banner-center'>
+        <article> I'm A Web Developer</article>
+        <article className='avatar_banner'> 
+          <img src={avatarCard} className='avatar_card' alt='my selfie :)))'/>
+        </article>
+      </div>
     </section>
   )
 }
